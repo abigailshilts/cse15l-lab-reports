@@ -1,7 +1,7 @@
-#Hello world#
+#Hello world
 *this will be italic*
 **this will be bolded**
-##link to the second page in this repo##
+##link to the second page in this repo
 [Link](https://abigailshilts.github.io/cse15l-lab-reports/secondary)
 ![Image](https://media.techeblog.com/images/liberty-walk-ferrari-308.jpg)
 >fancy quote

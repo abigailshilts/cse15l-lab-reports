@@ -26,7 +26,7 @@
 
 ### **Step 3:** Trying some commands
 
-> Type some commands into the terminal for the server and the client, some command include:
+> Type some commands into the terminal for the server and the client, some commands include:
 * cd (changes directory)
 * ls (lists contents of current directory)
 * ls -al (lists contents of current directy including hidden files with more specific data pertaining to each item)
@@ -43,13 +43,13 @@
 
 ### **Step 4:** Moving files with scp
 
-> This will use the scp command. Typed in the client it will look something like: scp (name of file to transfer) (ssh account). Example:![Image](/lib/scp-command.png) From there you xan re-log onto the server. If you use ls you will be able to see it in the files and you can even run javac and java on it in the server:
+> This will use the scp command. Typed in the client it will look something like: scp (name of file to transfer) (ssh account). Example:![Image](/lib/scp-command.png) From there you can re-log onto the server. If you use ls you will be able to see it in the files and you can even run javac and java on it in the server:
 
 ![Image](/lib/scp-fulluse.png)
 
 ### **Step 5:** Setting up an SSH key
 
-> In replace of your password you can use a private key oused on the client and a public one housed on the server. These keys are files created byt he command ssh-keygen. The steps for this are as follows:
+> In replace of your password you can use a private key housed on the client and a public one housed on the server. These keys are files created byt he command ssh-keygen. The steps for this are as follows:
 
 1. Run ssh-keygen in the client
 2. Enter the path and file that you want the key saved to

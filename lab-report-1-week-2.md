@@ -49,7 +49,7 @@
 
 ### **Step 5:** Setting up an SSH key
 
-> In replace of your password you can use a private key housed on the client and a public one housed on the server. These keys are files created byt he command ssh-keygen. The steps for this are as follows:
+> In replace of your password you can use a private key housed on the client and a public one housed on the server. These keys are files created by the command ssh-keygen. The steps for this are as follows:
 
 1. Run ssh-keygen in the client
 2. Enter the path and file that you want the key saved to

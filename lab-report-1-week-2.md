@@ -47,3 +47,27 @@
 
 ![Image](/lib/scp-fulluse.png)
 
+### **Step 5:** Setting up an SSH key
+
+> In replace of your password you can use a private key oused on the client and a public one housed on the server. These keys are files created byt he command ssh-keygen. The steps for this are as follows:
+
+1. Run ssh-keygen in the client
+2. Enter the path and file that you want the key saved to
+3. Click the enter key to have no password
+
+> An example of me making a dummy one since I already completed the steps:
+
+![Image](/lib/ssh-keygen.png)
+
+4. Log into the server and use the mkdir command to create a new directory .ssh
+5. Log out of the server and use the scp command to copy the public key created in the previous steps into the .ssh directory it should look something like: scp (file path and name) (account log in and location to copy to) Example:
+
+![Image](/lib/copying-in-key.png)
+> Now you should be able to log into the server without a password like this:
+
+![Image](/lib/server-log-in-nopw.png)
+
+### **Step 6:** Optimizing remote running
+> There are a number of techniques that can improve efficieny when working with a remote server and the terminal. For one, using a ; seperates commands on the same line allowing you to run multiple at once. By pairing "" with a command and an ssh log in you can run the command on the server and then exit back into the client. Additionally, the up and downarrows on your keyboard allow you to easily navigate between recently used command in the terminal. Example:
+
+![Image](/lib/quick-commands.png)

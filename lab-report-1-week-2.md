@@ -66,7 +66,7 @@ or:
 
 ![Image](/lib/ssh-keygen.png)
 
-4. Log into the server and use the mkdir command to create a new directory .ssh
+4. Log into the server and use the `mkdir` command to create a new directory .ssh
 5. Log out of the server and use the `scp` command to copy the public key created in the previous steps into the .ssh directory it should look something like: 
 
 ```scp (file path and name) (account log in and location to copy to)```

@@ -50,13 +50,13 @@ or:
 
 ```scp (name of file to transfer) (ssh account)```
 
- Example:![Image](/lib/scp-command.png) From there you can re-log onto the server. If you use ls you will be able to see it in the files and you can even run javac and java on it in the server:
+ Example:![Image](/lib/scp-command.png) From there you can re-log onto the server. If you use `ls` you will be able to see it in the files and you can even run `javac` and `java` on it in the server:
 
 ![Image](/lib/scp-fulluse.png)
 
 ### **Step 5:** Setting up an SSH key
 
-> In replace of your password you can use a private key housed on the client and a public one housed on the server. These keys are files created by the command ssh-keygen. The steps for this are as follows:
+> In replace of your password you can use a private key housed on the client and a public one housed on the server. These keys are files created by the command `ssh-keygen`. The steps for this are as follows:
 
 1. Run `ssh-keygen` in the client
 2. Enter the path and file that you want the key saved to
@@ -67,7 +67,11 @@ or:
 ![Image](/lib/ssh-keygen.png)
 
 4. Log into the server and use the mkdir command to create a new directory .ssh
-5. Log out of the server and use the scp command to copy the public key created in the previous steps into the .ssh directory it should look something like: scp (file path and name) (account log in and location to copy to) Example:
+5. Log out of the server and use the `scp` command to copy the public key created in the previous steps into the .ssh directory it should look something like: 
+
+```scp (file path and name) (account log in and location to copy to)```
+
+ Example:
 
 ![Image](/lib/copying-in-key.png)
 > Now you should be able to log into the server without a password like this:

@@ -79,6 +79,6 @@ or:
 ![Image](/lib/server-log-in-nopw.png)
 
 ### **Step 6:** Optimizing remote running
-> There are a number of techniques that can improve efficieny when working with a remote server and the terminal. For one, using a ; seperates commands on the same line allowing you to run multiple at once. By pairing "" with a command and an `ssh` log in you can run the command on the server and then exit back into the client. Additionally, the up and downarrows on your keyboard allow you to easily navigate between recently used command in the terminal. Example with 2 keystrokes:
+> There are a number of techniques that can improve efficieny when working with a remote server and the terminal. For one, using a ; seperates commands on the same line allowing you to run multiple at once. By pairing "" with a command and an `ssh` log in you can run the command on the server and then exit back into the client. Additionally, the up and downarrows on your keyboard allow you to easily navigate between recently used command in the terminal. Example with 3 keystrokes (two up arrows and enter):
 
 ![Image](/lib/quick-commands.png)

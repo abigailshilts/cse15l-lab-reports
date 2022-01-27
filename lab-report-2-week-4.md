@@ -46,4 +46,4 @@ To solve this I implemented this change:
 
 ![Image](img2/ex3-codeDiff.png)
 
-The _bug_ in this instance was that when the _failure inducing input_ (a file with no open or close parenthesis) was searched, index variables for open and close parenthesis were assigned to -1. Thus when the closeParen index was used to find a substring it caused the _symptom_ of an out of bounds error. To solve this the code now first check that there are any parenthesis in the rest of the file before assigning those index variables, if there are none then it exits.
+The _bug_ in this instance was that when the _failure inducing input_ (a file with no open or close parenthesis) was searched, index variables for open and close parenthesis were assigned to -1. Thus when the closeParen index was used to find a substring it caused the _symptom_ of an out of bounds error. To solve this the code now first checks that there are any parenthesis in the rest of the file before assigning those index variables, if there are none then it exits.

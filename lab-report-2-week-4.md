@@ -10,7 +10,9 @@
 
 [Go here to find the specific test that caused this _symptom_](https://github.com/abigailshilts/markdown-parse-abbi/blob/5b1f7a5b7a70be3e397796f285a626eae257bada/test-extraLine.md)
 
-When the code is run it ends up with this infinite loop output, or _symptom_ (I used `ctrl-c` eventually to exit the loop):
+When the code is run it ends up with this infinite loop output, or _symptom_ (I used `ctrl-c` eventually to exit the loop however the terminal cut off the number of lines so I couldn't scroll back to it so here is a screenshot of the command and one of the output):
+
+![Image](img2/bug1-command.png)
 
 ![Image](img2/ex1-infiniteLoop.png)
 

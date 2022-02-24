@@ -9,6 +9,8 @@
 
 [Week six lab report](https://abigailshilts.github.io/cse15l-lab-reports/lab-report-3-week-6)
 
+[Week eight lab report](https://abigailshilts.github.io/cse15l-lab-reports/lab-report-4-week-8)
+
 ![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOgWLwy_7nalBq8l8SHrtM777KFWRiGKZG6A&usqp=CAU)
 >fancy quote
 

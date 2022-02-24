@@ -15,9 +15,9 @@ To test this I added this test to MarkdownParseTest:
 ![Image](img4/test-snippet1.png)
 
 This test failed when run against my version of MarkdownParse with this output:
-![Image](my-failure1.md)
+![Image](img4/my-failure1.png)
 
 This test also failed when ran against the version of markdown parse reviewed during my lab with this output:
-![Image](other-failure1.md)
+![Image](img4/other-failure1.png)
 
 The fix for this would not be considered a small change. For every new open bracket found tou would need to loop through the substring between the current index and the open bracket to detirmine how many back ticks existed. If it was an even number then you could use the link if not then the link was invalid. However it gets more complex in that you have to check that the backticks occur on the same line as the new open bracket in which case you have more comparisons to detirmine where to begin to check the substring for backticks or where to end it. Each of these loops and comparisons would be more than 3 lines. After that you then also have to remoev all back ticks from all valid links which is also another line of code. All together it will end up being >10 lines.

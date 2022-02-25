@@ -58,6 +58,6 @@ When ran against my code it failed with this output:
 ![Image](img4/my-failure3.png)
 
 The reviewed code failed with this output:
-![Image](img4/other-failure.png)
+![Image](img4/other-failure3.png)
 
 This would be a relativly small change to fix. To solve for this issue in my repo there would need to ba a couple of changes. First when adding the links to `toReturn` the java `replace()` function should be used to replace new line and space characters with empty strings. Then in the if statement before the links are added it should also check that in the substring between the current open parenthesis and the next open bracket (or end of the `markdown` string if there are no more open brackets) contains a close parenthesis.
